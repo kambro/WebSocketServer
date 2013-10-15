@@ -1,0 +1,11 @@
+parameters:
+  fishyfish.web_socket_server.component_chain.class_name: "Fishyfish\WebSocketServerBundle\DependencyInjection\CompilerPass\ComponentChain"
+  fishyfish.web_socket_server.server.loop.class_name: "React\EventLoop\Factory"
+
+services:
+  fishyfish.web_socket_server.server.loop:
+    class: %fishyfish.web_socket_server.server.loop.class_name%
+    factory_class:  %fishyfish.web_socket_server.server.loop.class_name%
+    factory_method: create
+  fishyfish.web_socket_server.component_chain:
+    class: %fishyfish.web_socket_server.component_chain.class_name%

@@ -1,0 +1,28 @@
+{
+    "name": "fishyfish/web-socket-server",
+    "type": "library",
+    "description": "Websocket server based on Ratchet for Symfony2",
+    "keywords": ["websocket","symfony2","ratchet"],
+    "homepage": "https://github.com/szalonyKapelusznik/WebSocketServer.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szalony Kapelusznik",
+            "email": "szalonykapelusznik@fishyfish.pl",
+            "homepage": "https://github.com/szalonyKapelusznik/WebSocketServer.git",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/symfony": "~2.3",
+        "cboden/Ratchet": "0.3.*@dev",
+        "jms/serializer-bundle": "0.12.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fishyfish": "src"
+        }
+    }
+}
