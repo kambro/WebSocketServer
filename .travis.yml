@@ -10,5 +10,5 @@ before_script:
 script: phpunit --coverage-clover clover
 
 notifications:
-  email: szalonykapelusznik+travis@fishyfish.pl
+  email: kb+travis@fishyfish.pl
 

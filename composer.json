@@ -3,13 +3,13 @@
     "type": "library",
     "description": "Websocket server based on Ratchet for Symfony2",
     "keywords": ["websocket","symfony2","ratchet"],
-    "homepage": "https://github.com/szalonyKapelusznik/WebSocketServer.git",
+    "homepage": "https://github.com/kambro/WebSocketServer.git",
     "license": "MIT",
     "authors": [
         {
-            "name": "Szalony Kapelusznik",
-            "email": "szalonykapelusznik@fishyfish.pl",
-            "homepage": "https://github.com/szalonyKapelusznik/WebSocketServer.git",
+            "name": "kambro",
+            "email": "kb+github@fishyfish.pl",
+            "homepage": "https://github.com/kambro/WebSocketServer.git",
             "role": "Developer"
         }
     ],
